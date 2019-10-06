@@ -2,16 +2,14 @@ import discord
 
 client = discord.Client()
 
+
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
-        return
+    if any([keyword in message.content() for keyword in('bush','quote','tiss')]):
+        await message.channel.send('Heres a quote')
 
-    if message.content.startswith('!Hello'):
-        await message.channel.send('Hello!')
-
-client.run('Your token here')
+client.run('NjEzMzcxNTc1Mzc4NTA5ODM0.XZnMYQ.tLXYV4B0IWd1E7n2wS9HsVgsL10')
