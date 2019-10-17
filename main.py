@@ -15,8 +15,7 @@ async def on_message(message):
 
     if message.content.startswith('!hello'):
         await message.channel.send('Hello!')
-    if message.content.startswith('!jan'):
-        await message.channel.send('Jan er flink i BF')
+
 
 client.run('NjM0NDE1MjgyMTE4NTkwNDg0.XaiLsA._vzo0tIgqppS0kZToKbeQ35OlFs')
 
