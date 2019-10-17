@@ -18,4 +18,3 @@ async def on_message(message):
 
 client.run('NjM0NDE1MjgyMTE4NTkwNDg0.XaiLsA._vzo0tIgqppS0kZToKbeQ35OlFs')
 
-# Jan er flink i BF 
