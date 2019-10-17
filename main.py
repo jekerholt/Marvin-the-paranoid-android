@@ -17,5 +17,5 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 
-client.run('NjM0NDE1MjgyMTE4NTkwNDg0.XaiLsA._vzo0tIgqppS0kZToKbeQ35OlFs')
-# Hei Jan
+client.run('')
+
