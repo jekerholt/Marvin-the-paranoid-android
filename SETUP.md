@@ -2,8 +2,11 @@
 Studio project @ Noroff University 
 
 
-Requirements: 
+Setting up env in pycharm:
 
-1. Install discord.py 
-2. Setup environment variable with token value(https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html). The env name
-needs to be 'DiscordToken'. You can validate that this has been setup correctly by opening CMD and writing echo %DiscordToken%
+1. Go to run > edit configurations > click browse on 'Environment variables:' ![token](https://i.imgur.com/QmkO2Ic.png)
+Create and new variable called DiscordToken and add your token as a value. You can validate the configuration in Pycharm 'Python Console'
+![token](https://i.imgur.com/Zfei1qb.png)
+
+
+
