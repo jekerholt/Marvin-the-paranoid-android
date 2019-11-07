@@ -19,6 +19,6 @@ async def on_message(message):
 
 # Grabbing token from local env variable
 token = os.getenv("DiscordToken")
-# Passing token to client.run() 
+# Passing token to client.run()
 client.run(token)
 
